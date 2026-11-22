@@ -1,8 +1,8 @@
-# CyberShield – Security Monitoring System
+# Sentinel – Security Monitoring System
 
 ## Overview
 
-CyberShield is a Java-based security monitoring system that analyzes authentication and web server logs to identify suspicious activities and potential security threats.
+Sentinel is a Java-based security monitoring system that analyzes authentication and web server logs to identify suspicious activities and potential security threats.
 
 It uses Core Java, JDBC and MySQL to detect threats, store security alerts and manage detected incidents through a command-line interface.
 
@@ -29,18 +29,13 @@ It uses Core Java, JDBC and MySQL to detect threats, store security alerts and m
 ## Project Structure
 
 ```text
-CyberShield/
+Sentinel/
 ├── config.properties
 ├── config.properties.example
 ├── .gitignore
 ├── lib/
-│   └── mysql-connector-j-8.4.0.jar
 ├── data/
-│   ├── auth.log
-│   ├── web.log
-│   └── blacklist.txt
 ├── sql/
-│   └── schema.sql
 └── src/
     └── com/
         └── cybershield/
